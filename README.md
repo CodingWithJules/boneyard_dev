@@ -1,31 +1,41 @@
-# Docker - Getting Started 🐳
+# Boneyard Dev
 
-Hands-on Docker training completed as part of **The Boneyard**, my engineering learning and project repository.
+**An evolving collection of engineering projects, experiments, and technical exercises focused on building stronger foundations in data and software engineering.**
 
-## Lab
+## About
 
-This lab covers the fundamentals of:
+Boneyard Dev serves as a working engineering portfolio and learning environment for exploring the technologies, patterns, and practices that support modern data platforms.
 
-- Running containers
-- Building Docker images
-- Creating a `Dockerfile`
-- Containerizing an application
-- Managing the container lifecycle
+The goal of this repository is to document continued growth through hands-on implementation — moving beyond individual tools to better understand how systems are built, integrated, deployed, and operated.
 
-**Tutorial:** [Docker - Getting Started Lab](https://docs.docker.com/guides/lab-container-getting-started/)
+## Areas of Focus
 
-## Commands Practiced
+Topics explored throughout this repository may include:
 
-```bash
-docker build -t getting-started .
-docker run -dp 3000:3000 getting-started
-docker ps
+- Data Engineering & Pipeline Development
+- Python & SQL
+- Docker & Containerization
+- APIs & Application Integration
+- Databases & Data Modeling
+- Git & Version Control
+- CI/CD & Automation
+- Cloud & Infrastructure
+- Event Streaming & Kafka
+- Testing & Observability
+- Distributed Systems
+- Data Platform Architecture
+
+## Repository Structure
+
+Projects are organized by technology or engineering concept and range from guided labs to independently designed implementations.
+
+```text
+boneyard_dev/
+├── docker/
+├── python/
+├── data-engineering/
+├── APIs/
+├── databases/
+├── devops/
+└── projects/
 ```
-
-## Key Takeaway
-
-A Docker **image** is the packaged application and its dependencies. A **container** is a running instance of that image.
-
----
-
-*Part of The Boneyard - learning by building, breaking, and rebuilding.*
